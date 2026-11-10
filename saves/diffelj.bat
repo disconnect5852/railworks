@@ -1,0 +1,1 @@
+FOR /f %%A IN ('type diff.txt') DO "e:\Progz\7zip\7z.exe" a -mm=Deflate -mx=9  -pDrF8cWf2KnIotHwNG02poABtWNZTpYDqjgvJjPOWfj8YOEGU -mem=AES256 -tzip "%%A.zip" "%%A"

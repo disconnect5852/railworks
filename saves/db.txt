@@ -1,0 +1,11 @@
+<?
+   $connect=mysql_connect(":/var/run/mysqld/mysqld.sock","railsimulator","ist7975");// UW edition....
+ //  $connect=mysql_connect();
+  if ( !$connect )
+   {
+    $emessage  = "<h1>Adatbázis hiba!</h1>";
+    $emessage .= "<b>Elnézést</b>, nem lehet kapcsolódni a mysql kiszolgálóhoz!";
+    $emassege .= "<br>Kérjük próbálja meg <b>késõbb</b>!<br><hr>";
+    die ($emessage);
+   }
+  $database_name="railsimulator";

@@ -1,0 +1,2233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cEngineSimBlueprint>
+	<Element>
+		<Value>
+			<Attribute name="Name">
+				<cDeltaString>
+					<Element>
+						<Value>BDt</Value>
+					</Element>
+				</cDeltaString>
+			</Attribute>
+			<Attribute name="BrowseInformation">
+				<iBrowseableBlueprint-cBrowseInformation>
+					<Element>
+						<Value>
+							<Attribute name="DisplayName">
+								<Localisation-cUserLocalisedString>
+									<Element>
+										<Value>
+											<Attribute name="English">
+												<cDeltaString>
+													<Element>
+														<Value>BDt</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="French">
+												<cDeltaString>
+													<Element>
+														<Value>BDt</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Italian">
+												<cDeltaString>
+													<Element>
+														<Value>BDt</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="German">
+												<cDeltaString>
+													<Element>
+														<Value>BDt</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Spanish">
+												<cDeltaString>
+													<Element>
+														<Value>BDt</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Dutch">
+												<cDeltaString>
+													<Element>
+														<Value>BDt</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Polish">
+												<cDeltaString>
+													<Element>
+														<Value>BDt</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Russian">
+												<cDeltaString>
+													<Element>
+														<Value>BDt</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Other">
+												<__Indexed__Localisation-cUserLocalisedString-cOtherStringLangPair>
+													<Element>
+														<Value/>
+													</Element>
+												</__Indexed__Localisation-cUserLocalisedString-cOtherStringLangPair>
+											</Attribute>
+											<Attribute name="Key">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+										</Value>
+									</Element>
+								</Localisation-cUserLocalisedString>
+							</Attribute>
+							<Attribute name="Description">
+								<Localisation-cUserLocalisedString>
+									<Element>
+										<Value>
+											<Attribute name="English">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="French">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Italian">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="German">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Spanish">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Dutch">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Polish">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Russian">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Other">
+												<__Indexed__Localisation-cUserLocalisedString-cOtherStringLangPair>
+													<Element>
+														<Value/>
+													</Element>
+												</__Indexed__Localisation-cUserLocalisedString-cOtherStringLangPair>
+											</Attribute>
+											<Attribute name="Key">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+										</Value>
+									</Element>
+								</Localisation-cUserLocalisedString>
+							</Attribute>
+							<Attribute name="Category">
+								<iBrowseableBlueprint-eBrowseableCategory>
+									<Element>
+										<Value>eUncategorised</Value>
+									</Element>
+								</iBrowseableBlueprint-eBrowseableCategory>
+							</Attribute>
+							<Attribute name="ValidInScenarios">
+								<eBoolean>
+									<Element>
+										<Value>eFalse</Value>
+									</Element>
+								</eBoolean>
+							</Attribute>
+						</Value>
+					</Element>
+				</iBrowseableBlueprint-cBrowseInformation>
+			</Attribute>
+			<Attribute name="EngineSimComponent">
+				<cEngineSimComponentBlueprint>
+					<Element>
+						<Value>
+							<Attribute name="SubSystem">
+								<__Indexed__EngineSimulation-cSubSystemBlueprint>
+									<Element>
+										<Value>
+											<EngineSimulation-cElectricSubSystemBlueprint>
+												<Element>
+													<Value>
+														<Attribute name="Name">
+															<cDeltaString>
+																<Element>
+																	<Value>BDt_simulation_alph</Value>
+																</Element>
+															</cDeltaString>
+														</Attribute>
+														<Attribute name="LocoBrakeAssembly">
+															<__Indexed__EngineSimulation-cLocoOnlyBrakeSystemBlueprint>
+																<Element>
+																	<Value/>
+																</Element>
+															</__Indexed__EngineSimulation-cLocoOnlyBrakeSystemBlueprint>
+														</Attribute>
+														<Attribute name="TrainBrakeAssembly">
+															<__Indexed__EngineSimulation-cTrainBrakeSystemBlueprint>
+																<Element>
+																	<Value>
+																		<EngineSimulation-cTrainDualBrakeBlueprint>
+																			<Element>
+																				<Value>
+																					<Attribute name="VacuumBrake">
+																						<EngineSimulation-cTrainVacuumBrakeDataBlueprint>
+																							<Element>
+																								<Value>
+																									<Attribute name="EquipmentType">
+																										<EngineSimulation-eEquipmentType>
+																											<Element>
+																												<Value>eAirSinglePipe</Value>
+																											</Element>
+																										</EngineSimulation-eEquipmentType>
+																									</Attribute>
+																									<Attribute name="MaxForcePercentOfVehicleWeight">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>%</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>80.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>80.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="Control">
+																										<__Indexed__EngineSimulation-cBrakeControlBlueprint>
+																											<Element>
+																												<Value>
+																													<EngineSimulation-cBrakeControlBlueprint>
+																														<Element>
+																															<Value>
+																																<Attribute name="CabControlName">
+																																	<cDeltaString>
+																																		<Element>
+																																			<Value>CabControlName</Value>
+																																		</Element>
+																																	</cDeltaString>
+																																</Attribute>
+																																<Attribute name="MaxQuickReleaseRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>25.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>25.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="EmergencyApplicationRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>55.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>55.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="MinimumReductionPressure">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>0.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>0.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="FullServicePressureDrop">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>15.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>15.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="MaxPressureDropInNormalApplication">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>0.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>0.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="MinContinuousServiceReleaseRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>0.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>0.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																															</Value>
+																														</Element>
+																													</EngineSimulation-cBrakeControlBlueprint>
+																												</Value>
+																											</Element>
+																										</__Indexed__EngineSimulation-cBrakeControlBlueprint>
+																									</Attribute>
+																									<Attribute name="Handbrake">
+																										<__Indexed__EngineSimulation-cHandbrake>
+																											<Element>
+																												<Value/>
+																											</Element>
+																										</__Indexed__EngineSimulation-cHandbrake>
+																									</Attribute>
+																									<Attribute name="MaxReleaseRate">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>INCHES_OF_MERCURY_PER_SECOND</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>1.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>1.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="MaxApplicationRate">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>INCHES_OF_MERCURY_PER_SECOND</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>1.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>1.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="MaxCylinderPressure">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>Hg&quot;</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>21.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>21.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="PressureForMaxForce">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>Hg&quot;</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>1.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>1.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="MaxSystemPressure">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>Hg&quot;</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>21.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>21.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="MinSystemPressure">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>Hg&quot;</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>0.0f</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>0.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="ProportionalBrake">
+																										<eBoolean>
+																											<Element>
+																												<Value>eFalse</Value>
+																											</Element>
+																										</eBoolean>
+																									</Attribute>
+																									<Attribute name="PressureUsedFromPipePerPoundGained">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>0.3f</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>0.300000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																								</Value>
+																							</Element>
+																						</EngineSimulation-cTrainVacuumBrakeDataBlueprint>
+																					</Attribute>
+																					<Attribute name="AirBrake">
+																						<EngineSimulation-cTrainAirBrakeDataBlueprint>
+																							<Element>
+																								<Value>
+																									<Attribute name="EquipmentType">
+																										<EngineSimulation-eEquipmentType>
+																											<Element>
+																												<Value>eAirSinglePipe</Value>
+																											</Element>
+																										</EngineSimulation-eEquipmentType>
+																									</Attribute>
+																									<Attribute name="MaxForcePercentOfVehicleWeight">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>%</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>80.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>80.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="Control">
+																										<__Indexed__EngineSimulation-cBrakeControlBlueprint>
+																											<Element>
+																												<Value>
+																													<EngineSimulation-cBrakeControlBlueprint>
+																														<Element>
+																															<Value>
+																																<Attribute name="CabControlName">
+																																	<cDeltaString>
+																																		<Element>
+																																			<Value>TrainBrakeControl</Value>
+																																		</Element>
+																																	</cDeltaString>
+																																</Attribute>
+																																<Attribute name="MaxQuickReleaseRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>25.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>25.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="EmergencyApplicationRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>55.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>55.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="MinimumReductionPressure">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>0.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>0.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="FullServicePressureDrop">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>15.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>15.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="MaxPressureDropInNormalApplication">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>0.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>0.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="MinContinuousServiceReleaseRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>0.0f</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>0.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																															</Value>
+																														</Element>
+																													</EngineSimulation-cBrakeControlBlueprint>
+																												</Value>
+																											</Element>
+																										</__Indexed__EngineSimulation-cBrakeControlBlueprint>
+																									</Attribute>
+																									<Attribute name="Handbrake">
+																										<__Indexed__EngineSimulation-cHandbrake>
+																											<Element>
+																												<Value/>
+																											</Element>
+																										</__Indexed__EngineSimulation-cHandbrake>
+																									</Attribute>
+																									<Attribute name="GraduatedRelease">
+																										<eBoolean>
+																											<Element>
+																												<Value>eFalse</Value>
+																											</Element>
+																										</eBoolean>
+																									</Attribute>
+																									<Attribute name="ProportionalBrake">
+																										<eBoolean>
+																											<Element>
+																												<Value>eFalse</Value>
+																											</Element>
+																										</eBoolean>
+																									</Attribute>
+																									<Attribute name="MaxReleaseRate">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi/s</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>5.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>5.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="MaxApplicationRate">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi/s</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>10.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>10.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="MaxCylinderPressure">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>90.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>90.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="PressureForMaxForce">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>70.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>70.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="MaxSystemPressure">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>70.0</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>70.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="MinSystemPressure">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>0.0f</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>0.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="Distributor">
+																										<__Indexed__EngineSimulation-cBrakeDistributorBlueprint>
+																											<Element>
+																												<Value/>
+																											</Element>
+																										</__Indexed__EngineSimulation-cBrakeDistributorBlueprint>
+																									</Attribute>
+																									<Attribute name="EmergencyBraking">
+																										<__Indexed__EngineSimulation-cBaseAirBrakeBlueprint-cEmergencyBraking>
+																											<Element>
+																												<Value>
+																													<EngineSimulation-cBaseAirBrakeBlueprint-cEmergencyBraking>
+																														<Element>
+																															<Value>
+																																<Attribute name="TriggerRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>10.0</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>10.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="ReservoirPressure">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>50.0</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>50.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="ReservoirCapacity">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>ft³</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>4.0</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>4.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="ReservoirVolumeMultiplier">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value></Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>1.5</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>1.500000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="ApplicationRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>40.0</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>40.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="ChargeRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>10.0</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>10.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																															</Value>
+																														</Element>
+																													</EngineSimulation-cBaseAirBrakeBlueprint-cEmergencyBraking>
+																												</Value>
+																											</Element>
+																										</__Indexed__EngineSimulation-cBaseAirBrakeBlueprint-cEmergencyBraking>
+																									</Attribute>
+																									<Attribute name="AuxiliaryBraking">
+																										<__Indexed__EngineSimulation-cBaseAirBrakeBlueprint-cAuxiliaryBraking>
+																											<Element>
+																												<Value>
+																													<EngineSimulation-cBaseAirBrakeBlueprint-cAuxiliaryBraking>
+																														<Element>
+																															<Value>
+																																<Attribute name="MaxChargingRate">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi/s</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>10.0</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>10.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																																<Attribute name="MaxReservoirPressure">
+																																	<sFloat32>
+																																		<Element>
+																																			<ToolData>
+																																				<Tool name="tool_cWinToolFloatDatum">
+																																					<cWinToolFloatDatum>
+																																						<Element>
+																																							<Value>
+																																								<Attribute name="mUnits">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>psi</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																								<Attribute name="mTypedIn">
+																																									<cFxString8>
+																																										<Element>
+																																											<Value>50.0</Value>
+																																										</Element>
+																																									</cFxString8>
+																																								</Attribute>
+																																							</Value>
+																																						</Element>
+																																					</cWinToolFloatDatum>
+																																				</Tool>
+																																			</ToolData>
+																																			<Value>50.000000</Value>
+																																		</Element>
+																																	</sFloat32>
+																																</Attribute>
+																															</Value>
+																														</Element>
+																													</EngineSimulation-cBaseAirBrakeBlueprint-cAuxiliaryBraking>
+																												</Value>
+																											</Element>
+																										</__Indexed__EngineSimulation-cBaseAirBrakeBlueprint-cAuxiliaryBraking>
+																									</Attribute>
+																									<Attribute name="PressureUsedFromPipePerPoundGained">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>0.3f</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>0.300000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="PressureGainedFromOnePipePounds">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>100</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>100.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="RetainerType">
+																										<EngineSimulation-cBaseAirBrakeBlueprint-eRetainerType>
+																											<Element>
+																												<Value>eNoRetainer</Value>
+																											</Element>
+																										</EngineSimulation-cBaseAirBrakeBlueprint-eRetainerType>
+																									</Attribute>
+																									<Attribute name="TripleValve">
+																										<eBoolean>
+																											<Element>
+																												<Value>eFalse</Value>
+																											</Element>
+																										</eBoolean>
+																									</Attribute>
+																									<Attribute name="TripleValveRatio">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value></Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>2.5</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>2.500000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																									<Attribute name="RetainerSlowReleaseRate">
+																										<sFloat32>
+																											<Element>
+																												<ToolData>
+																													<Tool name="tool_cWinToolFloatDatum">
+																														<cWinToolFloatDatum>
+																															<Element>
+																																<Value>
+																																	<Attribute name="mUnits">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>psi/s</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																	<Attribute name="mTypedIn">
+																																		<cFxString8>
+																																			<Element>
+																																				<Value>15</Value>
+																																			</Element>
+																																		</cFxString8>
+																																	</Attribute>
+																																</Value>
+																															</Element>
+																														</cWinToolFloatDatum>
+																													</Tool>
+																												</ToolData>
+																												<Value>15.000000</Value>
+																											</Element>
+																										</sFloat32>
+																									</Attribute>
+																								</Value>
+																							</Element>
+																						</EngineSimulation-cTrainAirBrakeDataBlueprint>
+																					</Attribute>
+																				</Value>
+																			</Element>
+																		</EngineSimulation-cTrainDualBrakeBlueprint>
+																	</Value>
+																</Element>
+															</__Indexed__EngineSimulation-cTrainBrakeSystemBlueprint>
+														</Attribute>
+														<Attribute name="MaxPower">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>hp</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>6500</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>6500.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="MaxForce">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>Lb/f</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>1100</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>1100.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="Has3rdRailPowerSupply">
+															<eBoolean>
+																<Element>
+																	<Value>eFalse</Value>
+																</Element>
+															</eBoolean>
+														</Attribute>
+														<Attribute name="Requires4thRail">
+															<eBoolean>
+																<Element>
+																	<Value>eFalse</Value>
+																</Element>
+															</eBoolean>
+														</Attribute>
+														<Attribute name="MaxSpeed">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>mph</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>100</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>100.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="StartupTime">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>s</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>0.5</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>0.500000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="ShutdownTime">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>s</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>0.5</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>0.500000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="TractiveForceVSpeed">
+															<cCSVContainer>
+																<Element>
+																	<Value>
+																		<Attribute name="CsvFile">
+																			<cDeltaString>
+																				<Element>
+																					<Value>Simulation\TractiveEffortVsSpeed.csv</Value>
+																				</Element>
+																			</cDeltaString>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</cCSVContainer>
+														</Attribute>
+														<Attribute name="TractiveEffortVThrottle">
+															<cCSVContainer>
+																<Element>
+																	<Value>
+																		<Attribute name="CsvFile">
+																			<cDeltaString>
+																				<Element>
+																					<Value>Simulation\TractiveEffortVsThrottle.csv</Value>
+																				</Element>
+																			</cDeltaString>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</cCSVContainer>
+														</Attribute>
+														<Attribute name="AntiSlipBrakeCylinderPressure">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>psi</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>20</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>20.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="HasThyristorControl">
+															<eBoolean>
+																<Element>
+																	<Value>eFalse</Value>
+																</Element>
+															</eBoolean>
+														</Attribute>
+														<Attribute name="QuickPowerOffAtZeroThrottle">
+															<eBoolean>
+																<Element>
+																	<Value>eFalse</Value>
+																</Element>
+															</eBoolean>
+														</Attribute>
+														<Attribute name="SlowSpeedFittedPresent">
+															<eBoolean>
+																<Element>
+																	<Value>eFalse</Value>
+																</Element>
+															</eBoolean>
+														</Attribute>
+														<Attribute name="SlowSpeedFittedSpeedLimit">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>mph</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>5</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>5.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="CylinderPressureForBrakeToCutPower">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>psi</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>0</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>0.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="MaxContinuousForce">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>Lb/f</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>12500</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>12500.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="AirSystem">
+															<EngineSimulation-cBrakeAirSystemBlueprint>
+																<Element>
+																	<Value>
+																		<Attribute name="HasLowPressureTest">
+																			<eBoolean>
+																				<Element>
+																					<Value>eFalse</Value>
+																				</Element>
+																			</eBoolean>
+																		</Attribute>
+																		<Attribute name="MinAirPressure">
+																			<sFloat32>
+																				<Element>
+																					<ToolData>
+																						<Tool name="tool_cWinToolFloatDatum">
+																							<cWinToolFloatDatum>
+																								<Element>
+																									<Value>
+																										<Attribute name="mUnits">
+																											<cFxString8>
+																												<Element>
+																													<Value>psi</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																										<Attribute name="mTypedIn">
+																											<cFxString8>
+																												<Element>
+																													<Value>0</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																									</Value>
+																								</Element>
+																							</cWinToolFloatDatum>
+																						</Tool>
+																					</ToolData>
+																					<Value>0.000000</Value>
+																				</Element>
+																			</sFloat32>
+																		</Attribute>
+																		<Attribute name="CutOutPressure">
+																			<sFloat32>
+																				<Element>
+																					<ToolData>
+																						<Tool name="tool_cWinToolFloatDatum">
+																							<cWinToolFloatDatum>
+																								<Element>
+																									<Value>
+																										<Attribute name="mUnits">
+																											<cFxString8>
+																												<Element>
+																													<Value>psi</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																										<Attribute name="mTypedIn">
+																											<cFxString8>
+																												<Element>
+																													<Value>0</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																									</Value>
+																								</Element>
+																							</cWinToolFloatDatum>
+																						</Tool>
+																					</ToolData>
+																					<Value>0.000000</Value>
+																				</Element>
+																			</sFloat32>
+																		</Attribute>
+																		<Attribute name="RestartPressure">
+																			<sFloat32>
+																				<Element>
+																					<ToolData>
+																						<Tool name="tool_cWinToolFloatDatum">
+																							<cWinToolFloatDatum>
+																								<Element>
+																									<Value>
+																										<Attribute name="mUnits">
+																											<cFxString8>
+																												<Element>
+																													<Value>psi</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																										<Attribute name="mTypedIn">
+																											<cFxString8>
+																												<Element>
+																													<Value>0</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																									</Value>
+																								</Element>
+																							</cWinToolFloatDatum>
+																						</Tool>
+																					</ToolData>
+																					<Value>0.000000</Value>
+																				</Element>
+																			</sFloat32>
+																		</Attribute>
+																		<Attribute name="ReservoirVolume">
+																			<sFloat32>
+																				<Element>
+																					<ToolData>
+																						<Tool name="tool_cWinToolFloatDatum">
+																							<cWinToolFloatDatum>
+																								<Element>
+																									<Value>
+																										<Attribute name="mUnits">
+																											<cFxString8>
+																												<Element>
+																													<Value>psi</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																										<Attribute name="mTypedIn">
+																											<cFxString8>
+																												<Element>
+																													<Value>1</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																									</Value>
+																								</Element>
+																							</cWinToolFloatDatum>
+																						</Tool>
+																					</ToolData>
+																					<Value>1.000000</Value>
+																				</Element>
+																			</sFloat32>
+																		</Attribute>
+																		<Attribute name="MainResMaxAirPressure">
+																			<sFloat32>
+																				<Element>
+																					<ToolData>
+																						<Tool name="tool_cWinToolFloatDatum">
+																							<cWinToolFloatDatum>
+																								<Element>
+																									<Value>
+																										<Attribute name="mUnits">
+																											<cFxString8>
+																												<Element>
+																													<Value>psi</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																										<Attribute name="mTypedIn">
+																											<cFxString8>
+																												<Element>
+																													<Value>0</Value>
+																												</Element>
+																											</cFxString8>
+																										</Attribute>
+																									</Value>
+																								</Element>
+																							</cWinToolFloatDatum>
+																						</Tool>
+																					</ToolData>
+																					<Value>0.000000</Value>
+																				</Element>
+																			</sFloat32>
+																		</Attribute>
+																		<Attribute name="Compressor">
+																			<__Indexed__EngineSimulation-cCompressorBlueprint>
+																				<Element>
+																					<Value/>
+																				</Element>
+																			</__Indexed__EngineSimulation-cCompressorBlueprint>
+																		</Attribute>
+																		<Attribute name="Exhauster">
+																			<__Indexed__EngineSimulation-cExhausterBlueprint>
+																				<Element>
+																					<Value/>
+																				</Element>
+																			</__Indexed__EngineSimulation-cExhausterBlueprint>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</EngineSimulation-cBrakeAirSystemBlueprint>
+														</Attribute>
+														<Attribute name="DynamicBrakesSystem">
+															<__Indexed__EngineSimulation-cDynamicBrakeBlueprint>
+																<Element>
+																	<Value/>
+																</Element>
+															</__Indexed__EngineSimulation-cDynamicBrakeBlueprint>
+														</Attribute>
+														<Attribute name="HasVentilator">
+															<eBoolean>
+																<Element>
+																	<Value>eFalse</Value>
+																</Element>
+															</eBoolean>
+														</Attribute>
+														<Attribute name="HasPantograph">
+															<eBoolean>
+																<Element>
+																	<Value>eFalse</Value>
+																</Element>
+															</eBoolean>
+														</Attribute>
+														<Attribute name="OverloadCurrent">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>A</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>1600</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>1600.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="MaxCurrent">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value>A</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>1500</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>1500.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+													</Value>
+												</Element>
+											</EngineSimulation-cElectricSubSystemBlueprint>
+										</Value>
+									</Element>
+								</__Indexed__EngineSimulation-cSubSystemBlueprint>
+							</Attribute>
+						</Value>
+					</Element>
+				</cEngineSimComponentBlueprint>
+			</Attribute>
+			<Attribute name="ScriptComponent">
+				<cScriptComponentBlueprint>
+					<Element>
+						<Value>
+							<Attribute name="Name">
+								<cDeltaString>
+									<Element>
+										<Value>Simulation\BDt_Simulation.lua</Value>
+									</Element>
+								</cDeltaString>
+							</Attribute>
+						</Value>
+					</Element>
+				</cScriptComponentBlueprint>
+			</Attribute>
+		</Value>
+	</Element>
+</cEngineSimBlueprint>

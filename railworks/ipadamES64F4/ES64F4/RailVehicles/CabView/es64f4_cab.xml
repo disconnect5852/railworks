@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cCabCameraBlueprint>
+	<Element>
+		<Value>
+			<Attribute name="Name">
+				<cDeltaString>
+					<Element>
+						<Value>es64f4_cab_cam</Value>
+					</Element>
+				</cDeltaString>
+			</Attribute>
+			<Attribute name="RenderComponent">
+				<cCameraRenderBlueprint>
+					<Element>
+						<Value/>
+					</Element>
+				</cCameraRenderBlueprint>
+			</Attribute>
+			<Attribute name="UpdateComponent">
+				<cCabCameraUpdateBlueprint>
+					<Element>
+						<Value>
+							<Attribute name="camType">
+								<sUInt32>
+									<Element>
+										<Value>4</Value>
+									</Element>
+								</sUInt32>
+							</Attribute>
+							<Attribute name="cameraOffset">
+								<cRVector3>
+									<Element>
+										<Value>
+											<Attribute name="X">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>0.65</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>0.650000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+											<Attribute name="Y">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>2.92</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>2.920000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+											<Attribute name="Z">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>7.2</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>7.200000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+										</Value>
+									</Element>
+								</cRVector3>
+							</Attribute>
+							<Attribute name="cameraDirection">
+								<cRVector3>
+									<Element>
+										<Value>
+											<Attribute name="X">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>0.000000</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>0.000000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+											<Attribute name="Y">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>0.000000</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>0.000000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+											<Attribute name="Z">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>1</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>1.000000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+										</Value>
+									</Element>
+								</cRVector3>
+							</Attribute>
+							<Attribute name="windowCameraOffset">
+								<cRVector3>
+									<Element>
+										<Value>
+											<Attribute name="X">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>-0.65</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>-0.650000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+											<Attribute name="Y">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>2.92</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>2.920000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+											<Attribute name="Z">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>7.2</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>7.200000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+										</Value>
+									</Element>
+								</cRVector3>
+							</Attribute>
+							<Attribute name="windowCameraDirection">
+								<cRVector3>
+									<Element>
+										<Value>
+											<Attribute name="X">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>0.000000</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>0.000000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+											<Attribute name="Y">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>0.000000</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>0.000000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+											<Attribute name="Z">
+												<sFloat32>
+													<Element>
+														<ToolData>
+															<Tool name="tool_cWinToolFloatDatum">
+																<cWinToolFloatDatum>
+																	<Element>
+																		<Value>
+																			<Attribute name="mUnits">
+																				<cFxString8>
+																					<Element>
+																						<Value></Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																			<Attribute name="mTypedIn">
+																				<cFxString8>
+																					<Element>
+																						<Value>1</Value>
+																					</Element>
+																				</cFxString8>
+																			</Attribute>
+																		</Value>
+																	</Element>
+																</cWinToolFloatDatum>
+															</Tool>
+														</ToolData>
+														<Value>1.000000</Value>
+													</Element>
+												</sFloat32>
+											</Attribute>
+										</Value>
+									</Element>
+								</cRVector3>
+							</Attribute>
+							<Attribute name="verticalDirectionalFreedom">
+								<sFloat32>
+									<Element>
+										<ToolData>
+											<Tool name="tool_cWinToolFloatDatum">
+												<cWinToolFloatDatum>
+													<Element>
+														<Value>
+															<Attribute name="mUnits">
+																<cFxString8>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+															<Attribute name="mTypedIn">
+																<cFxString8>
+																	<Element>
+																		<Value>10</Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+														</Value>
+													</Element>
+												</cWinToolFloatDatum>
+											</Tool>
+										</ToolData>
+										<Value>10.000000</Value>
+									</Element>
+								</sFloat32>
+							</Attribute>
+							<Attribute name="horizontalDirectionalFreedom">
+								<sFloat32>
+									<Element>
+										<ToolData>
+											<Tool name="tool_cWinToolFloatDatum">
+												<cWinToolFloatDatum>
+													<Element>
+														<Value>
+															<Attribute name="mUnits">
+																<cFxString8>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+															<Attribute name="mTypedIn">
+																<cFxString8>
+																	<Element>
+																		<Value>10</Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+														</Value>
+													</Element>
+												</cWinToolFloatDatum>
+											</Tool>
+										</ToolData>
+										<Value>10.000000</Value>
+									</Element>
+								</sFloat32>
+							</Attribute>
+							<Attribute name="SpringXCoefficient">
+								<sFloat32>
+									<Element>
+										<ToolData>
+											<Tool name="tool_cWinToolFloatDatum">
+												<cWinToolFloatDatum>
+													<Element>
+														<Value>
+															<Attribute name="mUnits">
+																<cFxString8>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+															<Attribute name="mTypedIn">
+																<cFxString8>
+																	<Element>
+																		<Value>0.2</Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+														</Value>
+													</Element>
+												</cWinToolFloatDatum>
+											</Tool>
+										</ToolData>
+										<Value>0.200000</Value>
+									</Element>
+								</sFloat32>
+							</Attribute>
+							<Attribute name="SpringYCoefficient">
+								<sFloat32>
+									<Element>
+										<ToolData>
+											<Tool name="tool_cWinToolFloatDatum">
+												<cWinToolFloatDatum>
+													<Element>
+														<Value>
+															<Attribute name="mUnits">
+																<cFxString8>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+															<Attribute name="mTypedIn">
+																<cFxString8>
+																	<Element>
+																		<Value>0.2</Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+														</Value>
+													</Element>
+												</cWinToolFloatDatum>
+											</Tool>
+										</ToolData>
+										<Value>0.200000</Value>
+									</Element>
+								</sFloat32>
+							</Attribute>
+							<Attribute name="SpringZCoefficient">
+								<sFloat32>
+									<Element>
+										<ToolData>
+											<Tool name="tool_cWinToolFloatDatum">
+												<cWinToolFloatDatum>
+													<Element>
+														<Value>
+															<Attribute name="mUnits">
+																<cFxString8>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+															<Attribute name="mTypedIn">
+																<cFxString8>
+																	<Element>
+																		<Value>0.2</Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+														</Value>
+													</Element>
+												</cWinToolFloatDatum>
+											</Tool>
+										</ToolData>
+										<Value>0.200000</Value>
+									</Element>
+								</sFloat32>
+							</Attribute>
+							<Attribute name="DampingXCoefficient">
+								<sFloat32>
+									<Element>
+										<ToolData>
+											<Tool name="tool_cWinToolFloatDatum">
+												<cWinToolFloatDatum>
+													<Element>
+														<Value>
+															<Attribute name="mUnits">
+																<cFxString8>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+															<Attribute name="mTypedIn">
+																<cFxString8>
+																	<Element>
+																		<Value>0.1</Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+														</Value>
+													</Element>
+												</cWinToolFloatDatum>
+											</Tool>
+										</ToolData>
+										<Value>0.100000</Value>
+									</Element>
+								</sFloat32>
+							</Attribute>
+							<Attribute name="DampingYCoefficient">
+								<sFloat32>
+									<Element>
+										<ToolData>
+											<Tool name="tool_cWinToolFloatDatum">
+												<cWinToolFloatDatum>
+													<Element>
+														<Value>
+															<Attribute name="mUnits">
+																<cFxString8>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+															<Attribute name="mTypedIn">
+																<cFxString8>
+																	<Element>
+																		<Value>0.1</Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+														</Value>
+													</Element>
+												</cWinToolFloatDatum>
+											</Tool>
+										</ToolData>
+										<Value>0.100000</Value>
+									</Element>
+								</sFloat32>
+							</Attribute>
+							<Attribute name="DampingZCoefficient">
+								<sFloat32>
+									<Element>
+										<ToolData>
+											<Tool name="tool_cWinToolFloatDatum">
+												<cWinToolFloatDatum>
+													<Element>
+														<Value>
+															<Attribute name="mUnits">
+																<cFxString8>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+															<Attribute name="mTypedIn">
+																<cFxString8>
+																	<Element>
+																		<Value>0.3</Value>
+																	</Element>
+																</cFxString8>
+															</Attribute>
+														</Value>
+													</Element>
+												</cWinToolFloatDatum>
+											</Tool>
+										</ToolData>
+										<Value>0.300000</Value>
+									</Element>
+								</sFloat32>
+							</Attribute>
+						</Value>
+					</Element>
+				</cCabCameraUpdateBlueprint>
+			</Attribute>
+			<Attribute name="PosOriComponent">
+				<cPosOriBlueprint>
+					<Element>
+						<Value/>
+					</Element>
+				</cPosOriBlueprint>
+			</Attribute>
+		</Value>
+	</Element>
+</cCabCameraBlueprint>
